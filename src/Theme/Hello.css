@@ -1,0 +1,45 @@
+.navigate1:hover {
+    border: 1px solid white;
+    padding : 10px 15px;
+    border-radius : 15px;
+    background-color : white
+
+
+}
+.navigate1{
+    border: 1px solid #cacafc;
+    padding : 10px 15px;
+    border-radius : 15px;
+    background-color :#cacafc;
+    margin-left: 15px;
+
+}
+@keyframes translateImage {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px); 
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.image1 {
+    animation: translateImage 2s ease-in-out infinite; 
+    box-shadow: 4px 4px 5px grey;
+}
+
+
+.dark-theme .navigate1 {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
